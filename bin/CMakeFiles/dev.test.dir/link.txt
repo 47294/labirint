@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/dev.test.dir/tests/Labirint.Test.cpp.o -o dev.test  -Wl,-rpath,/root/dev/bin libdev.so -lgtest -lgtest_main -lpthread 

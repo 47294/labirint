@@ -1,4 +1,0 @@
-/root/dev/bin/CMakeFiles/rebuild_cache.dir
-/root/dev/bin/CMakeFiles/edit_cache.dir
-/root/dev/bin/CMakeFiles/dev.test.dir
-/root/dev/bin/CMakeFiles/dev.dir

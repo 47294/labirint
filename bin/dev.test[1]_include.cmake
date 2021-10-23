@@ -1,5 +1,0 @@
-if(EXISTS "/root/dev/bin/dev.test[1]_tests.cmake")
-  include("/root/dev/bin/dev.test[1]_tests.cmake")
-else()
-  add_test(dev.test_NOT_BUILT dev.test_NOT_BUILT)
-endif()
