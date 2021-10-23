@@ -1,11 +1,12 @@
-#include <std.bool.h>
+#include <stdbool.h>
+#include <stdlib.h>
 bool Labirint(const char** map, unsigned rowsCount, unsigned columnsCount)
 {
 	bool** visited = calloc(rowsCount, sizeof(bool*));
 	for(int i; i < rowsCount; i++)
 
 	{
-		visited[i] = calloc(columnsCount, sizeof(bool));
+		visited[i] = bool* calloc(columnsCount, sizeof(bool));
 	}
 
 	Visit(map, rowsCount, columnsCount, 0, 0, visited);
